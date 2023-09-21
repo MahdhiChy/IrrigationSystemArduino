@@ -1,4 +1,11 @@
-#include <Servo.h>
+//This is the arduino code for the project smart irrigation system using Arduino and GSM module
+
+//This code is written by Golam Mahdhi Chowdhury
+
+//Helps taken from different online sources
+
+
+#include <Servo.h>    //including the servo library
 #include <SoftwareSerial.h>
 
 SoftwareSerial mGSM(9, 10);
