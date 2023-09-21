@@ -1,0 +1,3 @@
+# IrrigationSystemArduino
+A smart irrigation system using Arduino Microcontroller and GSM module
+It is an Arduino-based Smart Irrigation System. In the project, two soil moisture sensors are used to collect the data from two agricultural fields. A DHT sensor is also used to monitor the temperature and humidity. Using a relay, the pump is programmed to turn on if the moisture level goes below the desired level. Additionally, when the temperature or humidity exceeds the set point, the pump will activate. The relay is programmed to turn off the pump when the moisture level exceeds the set level. The project also includs a GSM module that sends the user a message each time the motor turned on or off. The user can also send commands to turn the relay on or off. 
